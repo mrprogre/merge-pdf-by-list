@@ -36,7 +36,7 @@ public class Merge {
         if (!targetDirectory.exists()) {
             boolean created = targetDirectory.mkdirs();
             if (created) {
-                System.out.println("создана целевая директория: " + targetDir);
+                System.out.println("target directory created: " + targetDir);
             }
         }
 
@@ -67,11 +67,11 @@ public class Merge {
                 mergePdfFiles(pdfList, targetDir + "\\all_pdf_files.pdf");
             }
 
-            return "объединено файлов " + counter + " из " + fileNamesToCopy.size() +
+            return "merged files " + counter + " of " + fileNamesToCopy.size() +
                     " (" + (int) (((double) counter / fileNamesToCopy.size()) * 100) + " %)";
 
         } else {
-            return "укажите все директории";
+            return Common.ERR_TEXT_SPECIFY_ALL;
         }
     }
 

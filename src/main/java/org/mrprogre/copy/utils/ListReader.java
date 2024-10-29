@@ -7,7 +7,6 @@ import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -33,7 +32,7 @@ public class ListReader {
             }
 
         } catch (Exception e) {
-            Common.showAlert("Список пуст или не существует");
+            Common.showAlert("The list is empty or does not exist");
         }
 
         return fileNames;

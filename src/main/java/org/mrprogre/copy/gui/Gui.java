@@ -27,7 +27,6 @@ public class Gui extends JFrame {
     public Gui() {
         Common.setTheme();
 
-        setName("CopyFilesByList");
         setResizable(false);
         getContentPane().setBackground(GUI_COLOR);
         setIconImage(LOGO_ICON.getImage());
@@ -45,7 +44,7 @@ public class Gui extends JFrame {
         int buttonWidth = 100;
 
         // FROM
-        JLabel filesLabel = new JLabel("Откуда");
+        JLabel filesLabel = new JLabel("Source");
         filesLabel.setFont(GUI_FONT);
         filesLabel.setBounds(objectX, objectY - 2, objectWidth - 10, objectHeight);
         filesLabel.setForeground(GUI_FONT_COLOR);
@@ -69,7 +68,7 @@ public class Gui extends JFrame {
         getContentPane().add(getFilesDirectoryPath);
 
         // COPY TO
-        JLabel filesDestinationLabel = new JLabel("Куда");
+        JLabel filesDestinationLabel = new JLabel("Target");
         filesDestinationLabel.setFont(GUI_FONT);
         filesDestinationLabel.setBounds(objectX, objectY + 40 - 2, objectWidth - 10, objectHeight);
         filesDestinationLabel.setForeground(GUI_FONT_COLOR);
@@ -93,7 +92,7 @@ public class Gui extends JFrame {
         getContentPane().add(getFilesDestinationDirectoryPath);
 
         // LIST TO PRINT
-        JLabel listToPrintLabel = new JLabel("Список");
+        JLabel listToPrintLabel = new JLabel("List");
         listToPrintLabel.setFont(GUI_FONT);
         listToPrintLabel.setBounds(objectX, objectY + 80 - 2, 60, objectHeight);
         listToPrintLabel.setForeground(GUI_FONT_COLOR);
@@ -127,7 +126,7 @@ public class Gui extends JFrame {
                         String result = Merge.start(pathFrom, pathTo, fileNamesToCopy);
                         setStatus(result);
                     } else {
-                        setStatus("укажите все пути к файлам и папкам");
+                        setStatus(Common.ERR_TEXT_SPECIFY_ALL);
                     }
                 }
         );

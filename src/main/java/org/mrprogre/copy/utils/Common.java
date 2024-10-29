@@ -9,15 +9,14 @@ import java.net.URI;
 import java.nio.file.FileSystems;
 
 public final class Common {
+    public static final String ERR_TEXT_SPECIFY_ALL = "specify all paths to files and folders";
 
     public static void setTheme() {
-        // установка темы окна авторизации
         UIManager.put("Component.arc", 10);
         UIManager.put("ProgressBar.arc", 6);
         UIManager.put("Button.arc", 8);
         UIManager.put("TextField.background", Color.GRAY);
         UIManager.put("TextField.foreground", Color.BLACK);
-        //FlatHiberbeeDarkIJTheme.setup();
         FlatCobalt2IJTheme.setup();
     }
 

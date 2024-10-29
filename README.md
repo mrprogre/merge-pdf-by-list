@@ -4,7 +4,15 @@
 
 ![image](https://github.com/user-attachments/assets/233c05e3-c955-4855-a468-11a0ea876f2e)
 
-**Information**
+
+You **must have Java** version 1.8 installed on your PC.
+
+**Last version:**
+[download](https://github.com/mrprogre/merge-pdf-by-list/raw/master/merge-pdf-by-list.jar)
+
+
+
+# Information
 
 Combines a list of PDF files into one PDF file.
 

@@ -133,7 +133,7 @@ public class Gui extends JFrame {
         getContentPane().add(mergeButton);
 
         // Статус
-        status = new JLabel();
+        status = new JLabel(Common.ERR_TEXT_SPECIFY_ALL);
         status.setFont(GUI_FONT);
         status.setBounds(objectX + buttonWidth + 25, objectY + 120, 400, objectHeight);
         status.setForeground(GUI_FONT_COLOR);

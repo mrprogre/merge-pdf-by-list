@@ -4,21 +4,22 @@
 
 ![image](https://github.com/user-attachments/assets/233c05e3-c955-4855-a468-11a0ea876f2e)
 
-**Информация**
-Объединяет по списку файлы pdf в один общий файл.
+**Information**
 
-В списке формата CSV каждый файл указан в отдельной строке.
+Combines a list of PDF files into one PDF file.
 
-Через точку с запятой указывается количество копий в файле.
+In the CSV format list, each file is listed on a separate line.
 
-**Пример списка**
+The number of copies in the file is indicated by a semicolon.
 
-файл1;1
+# List example
 
-файл2;2
+file1;1
 
-файл3;1
+file2;2
 
-файл4;3
+file3;1
 
-**В итоге будет один файл pdf с 7 листами.**
+file4;3
+
+**As a result there will be one pdf file with 7 sheets.**

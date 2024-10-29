@@ -1,4 +1,4 @@
-# Fast merge pdf files by List
+# Quickly merge PDF files by list
 ![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://avandy-news.ru/index-en.html)
 

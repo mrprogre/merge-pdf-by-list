@@ -5,9 +5,10 @@
 ![image](https://github.com/user-attachments/assets/233c05e3-c955-4855-a468-11a0ea876f2e)
 
 
-You **must have Java** version 1.8 installed on your PC.
+You must have [Java](https://www.java.com/ru/download/) version 1.8 installed on your PC:
 
-**Last version:**
+
+**Latest version of the application:**
 [download](https://github.com/mrprogre/merge-pdf-by-list/raw/master/merge-pdf-by-list.jar)
 
 

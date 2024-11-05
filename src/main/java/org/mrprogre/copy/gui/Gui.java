@@ -32,7 +32,7 @@ public class Gui extends JFrame {
         setIconImage(LOGO_ICON.getImage());
         setTitle("Merge files by list");
         setFont(GUI_FONT);
-        setBounds(680, 300, 480, 204);
+        setBounds(680, 300, 490, 212);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
 
